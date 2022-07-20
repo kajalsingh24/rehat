@@ -1,0 +1,548 @@
+*
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+ font-family: 'Merriweather Sans', sans-serif;               
+}
+header
+{
+    border-top: 2px solid #007bff;
+}
+
+.topborder
+{
+   border: 1px solid black;
+}
+.topborder i {
+ padding-right:5px;
+}
+.topborder li{
+  
+   list-style-type: none;
+}
+.topborder a
+ {
+color: black;}
+   
+.topborder ul{
+ margin: 0;
+    padding: 0;
+}
+.topborder img{
+ padding-right:5px;
+}
+.bootom-menu li a {
+   /* display: inline-block; */
+   color: black;
+   text-decoration: none;
+
+}
+.bootom-menu li a::after{
+content:"";
+width: 0;
+height: 3px;
+background-color:#007bff;
+margin: auto;
+display: block;
+
+}
+.bootom-menu li a:hover::after
+{
+   width: 100%;
+   transition: 0.3s linear;
+}
+.bootom-menu a:hover
+{
+   color: #007bff;
+}
+
+
+.nav-link
+{
+   padding: 6px;                
+}
+
+/* ---------------------------------------- start commonclass------------------------------------ */
+.commonpadding
+{
+   padding: 40px 0;
+}
+/* ---------------------------------------- end commonclass --------------------------------------*/
+/* .bootom-menu a:hover
+{
+   background-color:aqua;
+   
+} */
+.bootom-menu a
+{
+   color: black;
+}
+.bootom-menu .nav-link
+{
+   padding: 3px;
+}
+/* ---------searchicon--- */
+
+/* ----------end serach icon--- */
+/* -----------------------------------start topnavbar---------------------------------------- */
+/* -------------------------------------end topnabar----------------------------------------- */
+
+/* ----------------------------------------star start backgroundimage------------------------ */
+.backgroundiimg
+{
+   position: relative;
+}
+.backgroundiimg img
+{
+width: 100%;
+ height: 100vh;
+}
+.backgrounddescription
+{
+   position: absolute;
+   transform: translate(-50%,-50%);
+   top:30%;
+   left:50%;
+   text-align: center;
+}
+.backgrounddescription dd
+{
+
+color: white;
+font-size:20px;
+}
+.backgrounddescription h2
+{
+font-size: 50px;
+color: white;
+}
+.backgrounddescription p
+{
+color: white;
+font-size:20px;
+}
+
+.owl-nav{
+   position: absolute;
+   transform: translate(-50%,-50%);
+   top:50%;
+   left: 50%;
+   color:white;
+   font-size:50px;
+}
+.owl-nav.owl-prev
+{
+   /* background-color: blue; */
+  
+}
+/* ------------------------------start form-------------- */
+select
+{
+   display:inline-block;
+}
+input
+{
+display: inline-block;
+}
+.bannerform1
+{
+  
+   position: absolute;
+   transform: translate(-50%,-50%);
+   top:77%;
+   left:50%;
+   text-align: center;
+   z-index: 1;
+   background-color:transparent;
+   /* padding-left: 12px; */
+
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+   color:black;
+   background-color:white;
+}
+.bannerform2
+{
+background-color:white;
+padding:20px;
+
+}
+.bannerform1 a
+{
+   color: white;
+   margin-left:3px;
+   color: black;
+   background-color:#007bff;
+   padding:7px 29px;
+}
+.backgroundiimg .bannerform1 .nav-pills .nav-link.active
+{
+   border-radius: 0;
+   
+    margin-left: -0px; 
+   /* margin-top:3px;  */
+}
+.buttonclass
+{
+   margin-top: 0px;
+
+   /* padding:4px; */
+}
+
+.bannerform1 #checkin
+{
+   padding-bottom: 8px;
+   
+}
+.bannerform1 #checkout
+{
+   padding-bottom: 8px;
+   margin-left: 10px;
+}
+.bannerform1 #adult
+{
+   padding-bottom: 13px;
+   margin-left: 25px;
+   
+}
+.bannerform1  #child
+{
+   padding-bottom: 13px;
+   /* margin-left: 25px; */
+   
+} 
+.bannerform1  button
+{
+   padding:5px;
+   margin-top: 30px;
+   background-color:#007bff;
+   border: none;
+   color: white;
+   border-radius: 5px;
+}
+
+/* ------------------------------end form------------------ */
+
+
+/* -----------------------------------------end start backgroundimage--------------------------- */
+/* -------------------------------------------startrehat------------------------------------------- */
+/* .card-body i
+{
+   font-size: 20px;
+   background-color: blue;
+   border-radius: 50%;
+   margin-bottom:20px;
+}
+.card{
+   margin-bottom:-0%;
+} */
+/* form */
+
+/* endform */
+
+.rehat-contentc pre{
+   font-size:40px;
+}
+.rehat-contentc h3
+{
+   text-align: center;
+   justify-content: center;
+
+}
+.label
+{
+   display: inline-block;
+    margin-bottom: 0.5rem;
+    margin-left: 10px;
+}
+.searchdiv
+{
+   background-color:lavender;
+   /*  padding-bottom:15px; */
+    margin-top: -20px;
+   /* transform: translate(-0%,-9%); */   
+}
+.searchdiv dd{
+   padding: 25px 0;
+}
+.searchicon
+{
+   padding-top: 25px;
+}
+.searchicon:hover
+{
+   background-color:white;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.searchicon i
+{
+   padding:8px;
+   font-size:30px;
+ border-radius:50%;
+   color:black;
+   border: 4px solid white;
+     background-color:#007bff;
+}
+.rehat-contentc  p
+{
+   content: "\A";
+   white-space: pre;
+   text-align: center;
+
+} 
+/*  */
+/* ---------------------------------------end rehat----------------------------------------------------- */
+
+
+
+/* -----------------------------------------start Bestoffer------------------------------------------------ */
+.Bestoffer
+{
+   font-size: 14px;
+}
+.bestofferdollarfont
+{
+   font-size: 20px;
+}
+
+
+.Bestoffermain
+{
+   background-color:lavender;
+}
+/* #slider1 .Bestoffermain  .owl-nav
+{
+   display: block;
+} */
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+   display: block;
+
+}
+#slider1 .owl-nav
+{
+       right: 0%;
+       position: absolute;
+    color: black;                                                                
+    transform: translate(-10%,-90%);
+   right: 0%;
+   color: black;
+    top: 0%;
+    font: 25px;
+   padding-bottom:25px;
+   padding-left: 40%;
+   z-index: 1;
+   
+}
+/* .owl-carousel:hover .owl-buttons {
+   display: block;
+ } */
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot
+{
+   height: 35px;
+   background: no-repeat;
+   width: 35px;
+   border-radius: 50%;
+   padding: 10px;
+   font-size: 20px;
+   color:white;
+   border: 2px solid white;
+}
+/* -----------------------------------------end best offer------------------------------------------------ */
+/* #slider1 .owl-nav
+{
+   position: absolute;
+   transform: translate(-50%,-50%);
+   top:50%;
+   left: 50%;
+   color:black;
+   font-size:50px;
+} */
+* ----------------------------------------start  top destinationcard-r--------------------------------------------- */
+.card img{
+   width: 100%;
+   position:relative;
+ 
+}
+/* .card img::after
+{
+    transform: scale(1.3);
+transition: all 0.3s ease-out;
+}
+.card img:hover
+{
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3;
+     */
+.card
+{
+   position: relative;
+   background-color:white;
+     overflow: none;
+}
+.card-body
+{
+   /* margin: 0; */
+   
+   padding: 0;
+   padding-left: 8px;
+   padding-right: 8px;
+   padding-bottom: 10px;
+
+   
+}
+.card-body3
+{
+   /* padding: 0; */
+   padding-left: 8px;
+   padding-right: 8px;
+   padding-bottom: 10px;
+   
+}
+.card-body3 i{
+   font-size: 20px;
+}
+.topcard
+{
+   padding-top: 30px;
+}
+
+/* ----------------------------------------end top destinationcard- --------------------------------------------*/
+/* ---------------------------------------------start footer----------------------------------------------------- */
+footer .logodiv i
+{
+   font-size: 25px;
+   border-radius: 5px;
+   color: white;
+   padding: 5px 8px;
+   
+}
+.about
+{
+   line-height:30px;
+}
+.about a
+{
+   color:white;
+   font-size:30px;
+   display: inline-block;
+   
+   
+}
+
+.about a img:hover
+{
+   background-color:#007bff;
+}
+.about img
+{
+max-width:300px;
+/* height:60px */
+background-color: white;
+}
+/* --travel----- */
+ .blue
+{
+   background-color:#007bff;
+}
+.navy
+{
+   background-color: navy;
+}
+.deepink
+{
+   background-color: deeppink;
+}
+.red
+{
+   background-color: red;
+}
+.orange
+{
+   background-color: orange;
+}
+.travel a
+{
+color: white;
+
+}
+.travel a:hover
+{
+   color: #007bff;
+}
+.travel i{
+padding: 5px;
+}
+/* ----link-- */
+.links i{
+   padding: 5px;
+}
+
+.links a
+{
+   color: white;
+}
+/*newsletter  */
+.newsletter a{
+   color: white;  
+}
+.links a:hover
+{
+   color:#007bff
+}
+.newsletter a
+{
+   padding-top: 20px;
+   line-height: 40px;
+   /* line-height: 30px; */
+}
+.newsletter a:hover
+{
+   color:#007bff;
+}
+.increases
+{
+   font-size:30px;
+   position: relative;
+}
+.increases sup{
+
+      font-size: 12px;
+      position: absolute;
+      /* top: -4px; */
+      transform: translate(-81%,-0%);
+      top:48%;
+  }
+.headingclass h3{
+   margin-bottom: 20px;
+}
+.input-container {
+  /* IE10 */
+   display: flex;
+   width: 100%;
+   margin-bottom: 15px;
+ }
+ 
+ .icon {
+   padding: 12px;
+   background: dodgerblue;
+   color: white;
+   min-width: 30px;
+   text-align: center;
+ }
+ 
+ .input-field {
+   width: 100%;
+   padding: 6px;
+   outline: none;
+ }
+
+.can
+    {
+       border-top: 1px solid white;
+       padding-bottom: 2px;
+    }
+/* ---------------------------------------------endfooter---------------------------------------------------------- */
+
+
